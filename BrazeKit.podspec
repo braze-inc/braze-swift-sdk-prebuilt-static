@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'BrazeKit'
-  s.version           = '8.2.0'
+  s.version           = '8.2.1'
   s.summary           = 'Braze Main SDK library providing support for analytics and push notifications.'
 
   s.homepage          = 'https://braze.com'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors           = 'Braze, Inc.'
 
   s.source            = {
-    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/8.2.0/BrazeKit.zip',
-    :sha256 => 'aa5c1046d065b69bd785c8fe2c47ac0ce178c410a37a2bcfdb75d71649f81ea7'
+    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/8.2.1/BrazeKit.zip',
+    :sha256 => 'ca063e222d20be18d1d04c92cd0906d7bcb864d6bf6a2a98e3f6c5d37a144487'
   }
 
   s.swift_version               = '5.0'
