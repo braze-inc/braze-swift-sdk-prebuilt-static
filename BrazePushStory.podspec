@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'BrazePushStory'
-  s.version           = '8.2.1'
+  s.version           = '8.3.0'
   s.summary           = 'Braze notification content extension library providing support for Push Stories.'
 
   s.homepage          = 'https://braze.com'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors           = 'Braze, Inc.'
 
   s.source            = {
-    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/8.2.1/BrazePushStory.zip',
-    :sha256 => 'aa6e069e16f4ad764f401424e414f2e942b8d6686380454df75048c1fc7533ae'
+    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/8.3.0/BrazePushStory.zip',
+    :sha256 => '4be1f9110e622d733aa07e50156a3b6d6f8804452f38a8dc57069214937e9ba3'
   }
 
   s.swift_version               = '5.0'
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.visionos.deployment_target  = '1.0'
 
   s.vendored_framework      = 'BrazePushStory.xcframework'
+  s.resource_bundles        = { 'BrazePushStory' => ['Sources/BrazePushStoryResources/Resources/**/*'] }
 
   s.pod_target_xcconfig     = { 'DEFINES_MODULE' => 'YES' }
 end
