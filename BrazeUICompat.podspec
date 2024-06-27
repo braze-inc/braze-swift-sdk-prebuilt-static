@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'BrazeUICompat'
-  s.version           = '9.3.0'
+  s.version           = '9.3.1'
   s.summary           = 'Compatibility UI library for users migrating from AppboyUI.'
 
   s.homepage          = 'https://braze.com'
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors           = 'Braze, Inc.'
 
   s.source            = {
-    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/9.3.0/BrazeUICompat.zip',
-    :sha256 => 'fbe35eece06682894df29e7b584e1e8c84ccb361273cf13870b03bac6eb091c6'
+    :http => 'https://github.com/braze-inc/braze-swift-sdk-prebuilt-static/releases/download/9.3.1/BrazeUICompat.zip',
+    :sha256 => 'b7348562c477acf370ae3cf7e7d7679179da938bf486da52062e2fa99d910c96'
   }
 
   s.swift_version           = '5.0'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.vendored_framework      = 'BrazeUICompat.xcframework'
   s.resource_bundles        = { 'BrazeUICompat' => 'Sources/BrazeUICompatResources/*/Resources/**/*.*' }
 
-  s.dependency 'BrazeKitCompat', '9.3.0'
+  s.dependency 'BrazeKitCompat', '9.3.1'
   s.dependency 'SDWebImage', '>= 5.19.0', '< 6'
 
   s.user_target_xcconfig    = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
